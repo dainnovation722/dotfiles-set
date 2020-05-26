@@ -1,0 +1,943 @@
+    1  conda info -e
+    2  ls
+    3  cd notebook/
+    4  ls
+    5  cd git/
+    6  ls
+    7  cd chemical_plant_images/
+    8  ls
+    9  cd protos/
+   10  ls
+   11  git branch
+   12  git checkout classification
+   13  gs
+   14  ebash
+   15  ls
+   16  git branch
+   17  git status
+   18  git checkout 
+   19  git branch
+   20  git status
+   21  git checkout -f classification
+   22  ls
+   23  cd classification/
+   24  ls
+   25  conda info -e
+   26  conda env create -f=env_name.yml -n image
+   27  conda activate image 
+   28  conda activate image
+   29  conda activate 
+   30  conda init
+   31  conda
+   32  conda activate image
+   33  ls
+   34  which conda
+   35  which conda.sh
+   36  conda activate base
+   37  conda info -e
+   38  source activate base
+   39  conda activate image
+   40  exit
+   41  ebash
+   42  ls
+   43  conda info -e
+   44  conda activate image
+   45  ls
+   46  ls -latr
+   47  cat .bash
+   48  ebash 
+   49  vim ~/.bashrc 
+   50  vim ~/.bash_aliases
+   51  ls 
+   52  ps
+   53  ebash
+   54  source ~/.bashrc 
+   55  ebash
+   56  cat ~/.bash_aliases 
+   57  cat ~/.bashrc 
+   58  j
+   59  ebash
+   60  ls
+   61  cd notebook/
+   62  ls
+   63  cd input/
+   64  ls
+   65  cd ../
+   66  ls
+   67  git branch
+   68  ls
+   69  cd git/
+   70  ls
+   71  cd chemical_plant_images/
+   72  ls
+   73  git branch
+   74  git pull origin master
+   75  ls
+   76  cd input/hardening-tank/
+   77  ls
+   78  find . -name "*.dvc" | wc -l
+   79  dvc
+   80  pip install --user dvc
+   81  ls
+   82  git branch
+   83  git checkout classification
+   84  ls
+   85  rm *.avi
+   86  ls
+   87  ls -latr
+   88  find . -name "*.dvc" | wc -l
+   89  dvc pull
+   90  ls -latr
+   91  ls -lh
+   92  cd 20200208-004000-004501_CH12
+   93  ls
+   94  ls | wc -l
+   95  cd ../
+   96  cd notebook/git/chemical_plant_images/
+   97  cd input/hardening-tank/
+   98  ls
+   99  ls -latr
+  100  ls
+  101  dvc pull
+  102  conda info -e
+  103  conda activate image
+  104  ls
+  105  cd input/
+  106  ls
+  107  cd hardening-tank/
+  108  ls
+  109  git branch
+  110  git fetch
+  111  ls
+  112  cd ~
+  113  ls
+  114  ls -latr
+  115  ssh-keygen -t rsa -b 4096 -C "722.dai.innovation@gmail.com"
+  116  eval "$(ssh-agent -s)"
+  117  ssh-add -K ~/.ssh/id_rsa
+  118  ssh-add ~/.ssh/id_rsa
+  119  ssh-agent -l
+  120  ssh-add -l
+  121  cat ~/.ssh/id_rsa.pub 
+  122  git fetch
+  123  ls
+  124  cd notebook/git/chemical_plant_images/
+  125  git fetch
+  126  git merege origin/master
+  127  git merge origin/master
+  128  git config --global
+  129  git config --global user.email "722.dai.innovation@gmail.com"
+  130  git config --global user.name "dainnovation722"
+  131  ls
+  132  git merge origin/master
+  133  ls
+  134  cd input/
+  135  ls
+  136  cd hardening-tank/
+  137  ls
+  138  cat README.md 
+  139  ls -latr
+  140  ls
+  141  mkdir my_data
+  142  mv *.avi my_data/
+  143  ls
+  144  find . -type d
+  145  find . -type d -name 20*
+  146  find . -type d -name *CH12
+  147  find . -name *CH12
+  148  find . -name "*CH12"
+  149  find . -name "*CH12" | xargs mv my_data/
+  150  ls
+  151  ls 20200208-004501-005000_192-CH12
+  152  cd ../
+  153  cd hardening-tank/
+  154  mv 20200208-004501-005000_192-CH12/my_data/ ./
+  155  ls
+  156  mv 20200208-004501-005000_192-CH12 my_data/
+  157  ls
+  158  rm 20200207-000500-001001_192-CH12.dvc 20200208-004501-005000_192-CH12.dvc
+  159  ls
+  160  find . -name *.dvc
+  161  find . -name "*.dvc"
+  162  find . -name "*.dvc" | wc 
+  163  find . -name "*.dvc" | wc -l
+  164  git checkout master
+  165  git branch 
+  166  ls
+  167  dvc pull 
+  168  pip install --user dvc
+  169  dvc pull 
+  170  dvc
+  171  which dvc
+  172  pip install dvc
+  173  dvc
+  174  echo $PATH
+  175  which dvc
+  176  ebash
+  177  conda activate
+  178  dvc 
+  179  ebash
+  180  sbash
+  181  ls
+  182  dvc
+  183  echo $PATH
+  184  cd /home/user4/.local/lib/python3.7/site-packages
+  185  ls
+  186  cd dvc
+  187  ls
+  188  dvc
+  189  cd command/
+  190  ls
+  191  cd ../
+  192  find . -name "*.sh"
+  193  ls
+  194  cd ../
+  195  cd ~
+  196  ls
+  197  dvc
+  198  ls
+  199  cd notebook/
+  200  ls
+  201  cd git/chemical_plant_images/
+  202  ls
+  203  dvc
+  204  pip list | grep dvc
+  205  pip install dvc
+  206  dvc
+  207  git 
+  208  git branch
+  209  cd input/hardening-tank/
+  210  ls -l
+  211  find . -type d
+  212  rm -rf my_data/
+  213  find . -type d
+  214  ls
+  215  ls -1
+  216  ls -1 -d
+  217  ls -1 -d */
+  218  for dir in `ls -1 -d */`;do ls $dir | wc -l;done
+  219  for dir in `ls -1 -d */`;do echo $dir | ls $dir | wc -l;done
+  220  dir='ss'
+  221  echo $dir
+  222  printf $dir
+  223  for dir in `ls -1 -d */`;do e printf $dir | ls $dir | wc -l;done
+  224  for dir in `ls -1 -d */`;do printf $dir | ls $dir | wc -l;done
+  225  ls
+  226  touch count_file.sh
+  227  history
+  228  chmod 755 count_file.sh 
+  229  ./count_file.sh 
+  230  ls 20200208-004000-004501_CH12/ | wc -l
+  231  ls 20200208-004000-004501_CH12/ | wc -l > sum
+  232  echo $sum
+  233  sum
+  234  ls 20200208-004000-004501_CH12/ | wc -l > v_sum
+  235  echo $v_sum
+  236  v_sum=`ls 20200208-004000-004501_CH12/ | wc -l`
+  237  echo $v_sum
+  238  sum
+  239  ./count_file.sh 
+  240  ls -1 -d */ 
+  241  ls -1 -d */ | grep 202007*
+  242  ls -1 -d */ | grep 20200207
+  243  ./count_file.sh 
+  244  sum=0
+  245  ./count_file.sh 
+  246  ls
+  247  ls -latr
+  248  ls
+  249  ls -l
+  250  ./count_file.sh 
+  251  conda activate image
+  252  python vgg_fine_tuning.py 
+  253  jobs
+  254  exit
+  255  ls
+  256  source activate image
+  257  cd 20200207-145959-150500_CH12  
+  258  history
+  259  du -ch
+  260  ls
+  261  ls -lh
+  262  du -ch
+  263  exit
+  264  ls
+  265  conda activate image
+  266  ls
+  267  python vgg_fine_tuning.py --test
+  268  exit
+  269  source activate image
+  270  /home/user4/.conda/envs/image/bin/python /home/user4/.vscode-server/extensions/ms-python.python-2020.4.76186/pythonFiles/pyvsc-run-isolated.py pip install -U flake8
+  271  pip8
+  272  pep8
+  273  flaek
+  274  flake
+  275  pip install flake8
+  276  pip install autopep8
+  277  pip install flake8 -U
+  278  ls
+  279  cd protos/classification/
+  280  python vgg_fine_tuning.py -e 1
+  281  pip install opencv2
+  282  conda uninstall opencv
+  283  pip install --user opencv-python
+  284  python vgg_fine_tuning.py 
+  285  jobs
+  286  python vgg_fine_tuning.py 
+  287  kill %1
+  288  python vgg_fine_tuning.py 
+  289  gpustat
+  290  pip install gpustat
+  291  gpustat
+  292  gpustat -u 
+  293  gpustat --help
+  294  gpustat -Fcup
+  295  jobs
+  296  python vgg_fine_tuning.py --test
+  297  jobs
+  298  python vgg_fine_tuning.py --test -e 3 
+  299  tmux
+  300  exit
+  301  ps
+  302  source activate image
+  303  ps
+  304  gpustat
+  305  ls
+  306  cd protos/
+  307  ls
+  308  cd classification/
+  309  find ./photos/john_doe -type f -name '*.jpg' -exec du -ch {} + | grep total$
+  310  du
+  311  du -ch
+  312  du -ch | grep total
+  313  cd ../../input/
+  314  ls
+  315  cd hardening-tank/
+  316  ls
+  317  du ch *.png
+  318  du -ch
+  319  gpustat
+  320  nvidia-smi
+  321  gpustat -Fcup
+  322  history
+  323  gpustat
+  324  exit
+  325  ls
+  326  source activate image
+  327  ls
+  328  cd protos/
+  329  ls
+  330  cd classification/
+  331  ls
+  332  git branch
+  333  cp vgg_fine_tuning.py vgg_fine_tuning_by_cotton.py
+  334  gpustat
+  335  tmux
+  336  ls
+  337  cd notebook/
+  338  ls
+  339  cd git/
+  340  ls
+  341  cd chemical_plant_images/input/hardening-tank/
+  342  ls
+  343  git branch
+  344  ls
+  345  cd ../
+  346  ls
+  347  pwd
+  348  s
+  349  ls
+  350  cd hardening-tank/
+  351  ls
+  352  ls -latr
+  353  ls
+  354  ls -lh
+  355  du -ch
+  356  exit
+  357  ls
+  358  cd notebook/
+  359  ls
+  360  conda activate image
+  361  ls
+  362  cd input/
+  363  ls
+  364  dvd
+  365  dvc
+  366  dvc pull
+  367  ls
+  368  cd ~
+  369  ls
+  370  cd notebook/git/chemical_plant_images/
+  371  cd input/
+  372  ls
+  373  cd hardening-tank/
+  374  ls
+  375  ls -latr
+  376  ls
+  377  jupyter lab
+  378  ls
+  379  git branch
+  380  git ls
+  381  ls
+  382  cd input/
+  383  ls
+  384  cd video_samples/
+  385  ls
+  386  ls -latr
+  387  ls -lhat
+  388  cd ../
+  389  ls
+  390  cd hardening-tank/
+  391  ls
+  392  ls -latr
+  393  ls
+  394  cd ../
+  395  ls
+  396  cd video_samples/
+  397  ls
+  398  tree
+  399  find .
+  400  ls -lh
+  401  gpustat
+  402  ls
+  403  dvc
+  404  conda activate image
+  405  dvc
+  406  source activate jupyter_env
+  407  dvc
+  408  git branch
+  409  cd notebook/git/
+  410  ls
+  411  cd chemical_plant_images/
+  412  ls
+  413  git branch
+  414  git checkout cotton_estimation
+  415  git branch
+  416  git checkout -b reconstruction
+  417  git branch
+  418  git checkout master
+  419  git checkout --force
+  420  git checkout --force master
+  421  git branch -D reconstruction
+  422  git branch
+  423  git checkout -b reconstruction
+  424  ls
+  425  cd notebook/git/chemical_plant_images/
+  426  d
+  427  ps aux | grep user4
+  428  ps aux | grep user4 | grep python
+  429  history | grep awk
+  430  ps aux | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  431  ps aux | grep user4 | grep python
+  432  gpustat
+  433  awk
+  434  ps axu | grep user4
+  435  gpustat
+  436  l ls
+  437  gpustat
+  438  ps aux | grep user4
+  439  kill 
+  440  ps aux --sort start_time | grep user4
+  441  ps aux --sort start_time | grep user4 | grep python
+  442  kill 7568 
+  443  gpustat
+  444  ps aux --sort start_time | grep user4 | grep python
+  445  kill 8675
+  446  gpustat
+  447  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill -9"}' | sh
+  448  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  449  gpustat
+  450  exit
+  451  gpustat
+  452  ps aux | grep user4 | grep python
+  453  history
+  454  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  455  gpustat
+  456  exit
+  457  gpustat
+  458  ls
+  459  cd ~/anaconda3/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf
+  460  ls
+  461  ls -latr
+  462  which python
+  463  which image
+  464  conda activate image
+  465  which python
+  466  ls
+  467  cd ~/.conda
+  468  ls
+  469  cd envs/image
+  470  ls
+  471  ls -latr
+  472  which site-package
+  473  find -name site-package
+  474  cd bin/
+  475  ls
+  476  cd ../
+  477  cd ~
+  478  ls
+  479  anaconda
+  480  which anaconda
+  481  ls
+  482  which conda
+  483  cd `which conda`
+  484  cd /opt/
+  485  cd ~
+  486  ls
+  487  which python
+  488  which site-package
+  489  echo $PATH
+  490  python --version
+  491  which python
+  492  which matplotlib
+  493  which keras
+  494  conda install 
+  495  conda list
+  496  ls
+  497  which site-pakage
+  498  cd /opt/conda/envs/jupyter_env/lib/python3.6/site-packages/matplotlib/
+  499  ls
+  500  cd mpl-data/fonts/ttf/
+  501  ls
+  502  wget https://ipafont.ipa.go.jp/IPAexfont/IPAexfont00401.zip
+  503  cd 
+  504  cd ~
+  505  ls
+  506  ls -latr
+  507  mkdir download
+  508  wget https://ipafont.ipa.go.jp/IPAexfont/IPAexfont00401.zip
+  509  unzip IPAexfont00401.zip 
+  510  ls
+  511  cd IPAexfont00401
+  512  ls
+  513  mv ipaex.ttf /opt/conda/envs/jupyter_env/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf
+  514  ls -latr
+  515  mv ipaexm.ttf /opt/conda/envs/jupyter_env/lib/python3.6/site-packages/matplotlib/mpl-data/fonts/ttf
+  516  ls
+  517  cd 
+  518  ls
+  519  mc IPAexfont00401 download/
+  520  mv IPAexfont00401 download/
+  521  rm IPAexfont00401.zip 
+  522  ls
+  523  ls -latr
+  524  cd .cache/
+  525  ls
+  526  cd ../
+  527  ls
+  528  cd .conda
+  529  ls
+  530  cd pkgs/
+  531  ls
+  532  cd ../
+  533  ls
+  534  cd evns/image
+  535  ls
+  536  cd envs
+  537  ls
+  538  cd image/
+  539  ls
+  540  ls -latr
+  541  cd lib
+  542  ls
+  543  cd python3.7/
+  544  ls
+  545  cd site-packages/
+  546  ls
+  547  cd matplotlib/mpl-data/fonts
+  548  ls
+  549  cd ttf/
+  550  ls
+  551  cd ~
+  552  ls
+  553  cd download/
+  554  ls
+  555  cd IPAexfont00401/
+  556  ls
+  557  mv ipaexg.ttf ~/.conda/envs/image/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf
+  558  ls
+  559  cd ~
+  560  ls
+  561  cd .cache/
+  562  ls
+  563  cd matplotlib/
+  564  ls
+  565  rm fontlist-v310.json 
+  566  exit
+  567  ls
+  568  git branch
+  569  git chekcout classification
+  570  git checkout --force classification
+  571  gpustat
+  572  pip install gpustat
+  573  pip install --user gpustat
+  574  gpustat
+  575  ebas
+  576  ebash
+  577  sbash
+  578  ls
+  579  gpustat
+  580  gpustat -Fcup
+  581  nvidia-smi
+  582  git branch 
+  583  git checkout reconstruction
+  584  git checkout --force reconstruction
+  585  ls
+  586  cd input/
+  587  ls
+  588  cd hardening-tank/
+  589  ls
+  590  gs
+  591  cat .gitignore 
+  592  gpustat
+  593  ls
+  594  free
+  595  ls
+  596  find . -type d
+  597  find . -type d | xargs git add
+  598  git branch
+  599  ls -lah
+  600  git add -f 20200208-004000-004501_CH12
+  601  gc
+  602  gp
+  603  git config --global push.default matching
+  604  git push 
+  605  ls
+  606  git branch 
+  607  git push origin reconstruction
+  608  gpusta 
+  609  gpustat --help
+  610  gpustat -c
+  611  nvidia-smi
+  612  ps aux | grep user4
+  613  ls
+  614  cd notebook/git/chemical_plant_images/
+  615  git branch
+  616  history
+  617  history | grep awk
+  618  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  619  ps aux
+  620  gpustat
+  621  exit
+  622  ls
+  623  cd .cache/
+  624  ls
+  625  cd matplotlib/
+  626  ls
+  627  echo $PATH
+  628  ebash
+  629  sbash
+  630  ebash
+  631  ls
+  632  cd ~
+  633  ls
+  634  cd don
+  635  cd download/
+  636  ls
+  637  cd IPAexfont00401/
+  638  ls
+  639  ls
+  640  cd notebook/git/chemical_plant_images/
+  641  ls
+  642  git branch
+  643  ls
+  644  conda activate image
+  645  python vgg_fine_tuning
+  646  python vgg_fine_tuning.py 
+  647  exit
+  648  source activate image
+  649  source activate image
+  650  gpustat
+  651  history
+  652  ps aux
+  653  hisotry
+  654  history
+  655  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  656  gpustat
+  657  ls
+  658  cd protos/
+  659  ls
+  660  cd classification/
+  661  ls
+  662  tmux
+  663  pip list | grep optuna
+  664  conda list | grep optuna
+  665  conda install optuna
+  666  pip install optuna
+  667  gpustat
+  668  pip list | grep optuna
+  669  tmux
+  670  gpustat
+  671  ls
+  672  cd notebook/
+  673  ls
+  674  cd git/chemical_plant_images/
+  675  ls
+  676  git branch
+  677  ls
+  678  cd input/hardening-tank/
+  679  ls
+  680  ls -latr
+  681  ls --sort
+  682  ls -l | sort
+  683  dvc pull 20200208-004501-005000_192-CH12.dvc
+  684  ls -l | sort
+  685  cd ../../
+  686  ls
+  687  cd protos/
+  688  ls
+  689  cd classification/
+  690  ls
+  691  pwd
+  692  cd notebook/git/chemical_plant_images/
+  693  git branch
+  694  gpustat
+  695  history | grep awk
+  696  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  697  gpustat
+  698  exit
+  699  ls
+  700  cd notebook/
+  701  ls
+  702  lspci | grep -i nvidia
+  703  gpustat
+  704  nvidia
+  705  source activate jupyter_env
+  706  nvidia
+  707  nvidia-smi
+  708  glxinfo
+  709  exit
+  710  gpustat
+  711  history | grep awk
+  712  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  713  gpustat
+  714  ps aux --sort start_time | grep user4 
+  715  ls
+  716  grep --color
+  717  ls
+  718  exit
+  719  conda activate image
+  720  python vgg_fine_tuning.py 
+  721  exit
+  722  conda activate image
+  723  python vgg_fine_tuning_by_cotton.py --test -o by_cotton
+  724  python vgg_fine_tuning_by_cotton.py 
+  725  python vgg_fine_tuning_by_cotton.py --test -o by_cotton
+  726  gpustat
+  727  python vgg_fine_tuning_by_cotton.py --test -o by_cotton
+  728  jobs
+  729  python vgg_fine_tuning_by_cotton.py --test -o by_cotton
+  730  history
+  731  gpustat
+  732  gpustat -Fcup
+  733  ls
+  734  gs
+  735  ga ConvAE.ipynb vgg_fine_tuning.py 
+  736  gc
+  737  gp
+  738  ls
+  739  gpuqstat
+  740  gpustat
+  741  exit
+  742  cd protos/
+  743  ls
+  744  cd classification/
+  745  git branch
+  746  ls
+  747  jupyter nbconvert --to script classification.ipynb 
+  748  ls
+  749  source activate image
+  750  cd protos/
+  751  ls
+  752  git branch
+  753  ls
+  754  cd classification/
+  755  ls
+  756  mv classification.py classification_opt.py
+  757  ls
+  758  ls -latr
+  759  cp classification_opt.py classification.py
+  760  chmod +755 classification.sh 
+  761  ./classification.sh 
+  762  gpustat
+  763  history
+  764  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  765  history | grep awk
+  766  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  767  gpustat
+  768  ./classification.sh 
+  769  python
+  770  ./classification.sh 
+  771  gpustat
+  772  history | grep awk
+  773  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  774  ls
+  775  gpustat
+  776  gpustat -Fcup
+  777  nvidia-smi
+  778  ps aux --sort start_time | grep user4 | grep python | awk '{print "kill " $2}' | sh
+  779  gpustat
+  780  w
+  781  tmux a
+  782  gpustat
+  783  tmux
+  784  w
+  785  tmux a
+  786  w
+  787  gpustat
+  788  ps aux | grep user4
+  789  ps aux | grep python
+  790  ps aux | grep user4
+  791  history 
+  792  ps aux --sort start_time | grep user4 | awk '{print "kill " $2}' | sh
+  793  ps aux | grep user4
+  794  gpustat
+  795  conda activate image
+  796  cd protos/classification/
+  797  ls
+  798  python classification.py 
+  799  jobs
+  800  kill %1
+  801  ./classification.sh q
+  802  exit
+  803  source activate image
+  804  cd ~/.local/
+  805  ls
+  806  mkdir archive
+  807  cd archive/
+  808  tar zxvf tree-1.6.0.tgz
+  809  ls
+  810  cd tree-1.6.0
+  811  ls
+  812  ls -l
+  813  make
+  814  ls
+  815  cd tree
+  816  ls
+  817  ls -latr
+  818  mv tree ../../bin/
+  819  ls
+  820  tree
+  821  ls
+  822  source activate image
+  823  cd protos/classification/
+  824  ls
+  825  ls -latr
+  826  rm -rf 10_33/
+  827  rm -rf by_cotton/
+  828  rm -rf InceptionResNetV2/
+  829  rm -rf test/
+  830  source activate image
+  831  ls
+  832  gpustat
+  833  ls
+  834  cd protos/
+  835  cd classification/
+  836  ./classification.sh 
+  837  ls
+  838  gs
+  839  ls
+  840  git branch
+  841  gs
+  842  git chekcout classification
+  843  git checkout classification
+  844  gs
+  845  cd ../reconstruction/
+  846  ls
+  847  gs
+  848  cd ../classification/
+  849  gs
+  850  git checkout classification
+  851  rm vgg_fine_tuning.py 
+  852  rm vgg_fine_tuning_by_cotton.py 
+  853  gs
+  854  git checkout classification
+  855  ls
+  856  ls -latr
+  857  gs
+  858  git branch
+  859  ga classification.py 
+  860  gc
+  861  gs
+  862  ga classification.sh 
+  863  gc
+  864  gs
+  865  ga report/
+  866  gc
+  867  ls
+  868  gs
+  869  ga utils.py 
+  870  gc
+  871  gs
+  872  gp
+  873  ls
+  874  gs
+  875  ls
+  876  ls -latr
+  877  rm vgg_fine_tuning.py 
+  878  rm ConvAE.ipynb 
+  879  rm frame_cut.ipynb 
+  880  gs
+  881  git rm --cached *
+  882  git rm --cached ConvAE.ipynb frame_cut.ipynb vgg_fine_tuning.py
+  883  gs
+  884  git rm --cached env_name.txt env_name.yml 
+  885  rm env_name.txt env_name.yml 
+  886  gs
+  887  ga
+  888  gc
+  889  gp
+  890  gs
+  891  touch READ.md
+  892  tree report/
+  893  echo $PATH
+  894  tree
+  895  tree report/
+  896  ga READ.md 
+  897  gc
+  898  gp
+  899  ls
+  900  cd ../../input/
+  901  ls
+  902  cd hardening-tank/
+  903  ls
+  904  history | grep for
+  905  ls -1
+  906  history | grep for
+  907  ls -1d
+  908  ls -1 -d
+  909  ls -1 -d */
+  910  history | grep for
+  911  for dir in `ls -1 -d */`;do printf $dir | ls $dir | wc -l;done
+  912  ls -1 -d */
+  913  ls -1 -d *
+  914  ls -d
+  915  ls -1 -d */
+  916  dvc pull
+  917  ls -1 -d */
+  918  ls
+  919  ls -1 -d */
+  920  dvc pull 
+  921  ls -1 -d */
+  922  ls
+  923  ls -latr
+  924  ls -latr | sort
+  925  history
+  926  history | grep sort
+  927  ls --sort
+  928  ls -l | sort
+  929  history | grep sort
+  930  ls --sort
+  931  ls -latr | sort
+  932  rm -rf 20200207-000500-001001_192-CH12
+  933  ls
+  934  source activate image
+  935  cd ~
+  936  ls
+  937  ls -latr
+  938  cd .ssh/
+  939  ls
+  940  cd ~
+  941  mkdir dotfiles
+  942  mv .bashrc .bash_aliases dotfiles/
+  943  history > .history
